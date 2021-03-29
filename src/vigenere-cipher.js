@@ -1,28 +1,10 @@
 const CustomError = require("../extensions/custom-error");
 
 class VigenereCipheringMachine {
-//   constructor(type=true) {
-//     this.type = type;
-//     this.letters = ["A", "B", 'C', 'D', 'E', 'F',	'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
-//   }
-//
-//
-//
-//   encrypt(message, key) {
-//     // throw new CustomError('Not implemented');
-//     // remove line with error and write your code here
-//     let message_arr = message.split("");
-//     let key_arr = key.split("");
-//     let message_arr_code = message_arr.map(function(elem){this.letters.indexOf(elem)});
-//     let key_arr_code = key_arr.map(function(elem){this.letters.indexOf(elem)});
-//
-//   }
-//   decrypt(message, key) {
-//     // throw new CustomError('Not implemented');
-//     // remove line with error and write your code here
-//   }
-}
-//
+
+encrypt() {}
+decrypt() {}
+
 module.exports = VigenereCipheringMachine;
 //
 // const letters = ["A", "B", 'C', 'D', 'E', 'F',	'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
